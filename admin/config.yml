@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: tr
+
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: "makaleler"
+    label: "Makaleler"
+    files:
+      - name: "liste"
+        label: "Makale Listesi"
+        file: "data/articles.json"
+        fields:
+          - name: articles
+            label: Makaleler
+            label_singular: Makale
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - label: "Makale ID (URL)"
+                name: id
+                widget: string
+                hint: "Türkçe karakter ve boşluk içermemeli. Örn: bosanma-davasi-rehberi"
+              - label: "Başlık"
+                name: title
+                widget: string
+              - label: "Kategori"
+                name: category
+                widget: select
+                options:
+                  - { label: "Aile Hukuku",        value: "aile" }
+                  - { label: "Ceza Hukuku",         value: "ceza" }
+                  - { label: "Gayrimenkul Hukuku",  value: "gayrimenkul" }
+                  - { label: "Ticaret Hukuku",      value: "ticaret" }
+                  - { label: "İdare Hukuku",        value: "idare" }
+              - label: "Yayın Tarihi"
+                name: date
+                widget: datetime
+                format: "YYYY-MM-DD"
+                date_format: "DD.MM.YYYY"
+                time_format: false
+              - label: "Yazar"
+                name: author
+                widget: string
+                default: "Av. Şimal Kuncan"
+              - label: "Okuma Süresi (dakika)"
+                name: readTime
+                widget: number
+                default: 5
+                value_type: int
+              - label: "Özet"
+                name: excerpt
+                widget: text
+                hint: "Makale listesinde görünecek kısa açıklama (1-3 cümle)"
+              - label: "İçerik"
+                name: content
+                widget: markdown
+                hint: "Makalenin tam içeriği. Başlık, paragraf, liste gibi biçimlendirmeler kullanabilirsiniz."

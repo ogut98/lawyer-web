@@ -395,34 +395,7 @@
         <h2 class="section-title" id="yazilar-title" data-i18n="art_title">Bilgi Merkezi</h2>
         <p class="section-desc" data-i18n="art_desc">Güncel hukuki makaleler, rehberler ve müvekkillerin sıkça sorduğu konulara yanıtlar.</p>
       </div>
-      <div class="articles-grid">
-        <article class="article-card">
-          <div class="article-category">Aile Hukuku</div>
-          <div class="article-body">
-            <time class="article-date" datetime="2024-11-15">15 Kasım 2024</time>
-            <h3><a href="yazilar/antalyada-bosanma-davasi.html">Antalya'da Boşanma Davası Nasıl Açılır? Adım Adım Rehber</a></h3>
-            <p>Antalya'da boşanma davası açmak isteyenler için anlaşmalı ve çekişmeli boşanma süreçleri, gerekli belgeler ve dikkat edilmesi gereken hususlar.</p>
-            <a href="yazilar/antalyada-bosanma-davasi.html" class="article-link"><span data-i18n="art_read">Devamını Oku</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
-        <article class="article-card">
-          <div class="article-category">Gayrimenkul Hukuku</div>
-          <div class="article-body">
-            <time class="article-date" datetime="2024-10-28">28 Ekim 2024</time>
-            <h3><a href="yazilar/antalyada-gayrimenkul-alirken.html">Antalya'da Gayrimenkul Alırken Avukat Tutmak Neden Şart?</a></h3>
-            <p>Antalya'da yükselen gayrimenkul fiyatları ve yoğun yatırımcı talebiyle birlikte artan tapu dolandırıcılığı vakalarına karşı kendinizi nasıl koruyabilirsiniz.</p>
-            <a href="yazilar/antalyada-gayrimenkul-alirken.html" class="article-link"><span data-i18n="art_read">Devamını Oku</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
-        <article class="article-card">
-          <div class="article-category">Ceza Hukuku</div>
-          <div class="article-body">
-            <time class="article-date" datetime="2024-10-05">5 Ekim 2024</time>
-            <h3><a href="yazilar/trafik-kazasi-tazminati.html">Trafik Kazası Tazminatı Nasıl Alınır? Hukuki Süreç</a></h3>
-            <p>Trafik kazasında zarara uğrayanların sigorta şirketleri ve karşı taraftan tazminat talep sürecinde bilmeleri gereken her şey.</p>
-            <a href="yazilar/trafik-kazasi-tazminati.html" class="article-link"><span data-i18n="art_read">Devamını Oku</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+      <div class="articles-grid" id="articlesGrid">
       </div>
       <div class="articles-footer">
         <a href="yazilar.html" class="btn btn-dark"><span data-i18n="art_btn">Tüm Yazıları Gör</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
@@ -582,6 +555,19 @@
     <span class="whatsapp-tooltip" data-i18n="wa_tooltip">WhatsApp'tan Yazın</span>
   </a>
 
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function() {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  <script src="js/articles.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
