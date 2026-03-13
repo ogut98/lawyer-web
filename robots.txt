@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+
+# Sitemap
+Sitemap: https://www.kuncanhukuk.com/sitemap.xml
+
+# Host
+Host: www.kuncanhukuk.com
