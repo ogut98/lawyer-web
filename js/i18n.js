@@ -35,7 +35,7 @@ const translations = {
     about_p1:      '<p>Kuncan Hukuk &amp; Danışmanlık, Av. F. Şimal Kuncan tarafından Antalya\'da kurulmuş olup bireylerin ve kurumların ihtiyaç duyduğu avukatlık ve hukuki danışmanlık hizmetlerini sunmaktadır.</p><p>Antalya\'da faaliyet gösteren Kuncan Hukuk &amp; Danışmanlık iş hukuku, ticaret hukuku ve aile hukuku başta olmak üzere çeşitli hukuk alanlarında müvekkillerine profesyonel hukuki destek sağlamaktadır.</p><p>Hukukun üstünlüğü ilkesinden hareket eden Kuncan Hukuk &amp; Danışmanlık, müvekkillerinin hukuki sorunlarını titiz, planlı ve çözüm odaklı bir yaklaşımla ele alarak en etkili şekilde sonuçlandırmayı hedeflemektedir.</p><p>Antalya\'da avukat veya hukuki danışmanlık hizmeti arayan kişiler için Kuncan Hukuk &amp; Danışmanlık, güvenilir ve profesyonel bir hukuki destek sunmayı amaçlamaktadır.</p>',
     about_p2:      'Bürodaki her davayı bizzat takip eden Av. Kuncan, müvekkillerine doğrudan ulaşılabilir olmayı ve süreci şeffaf biçimde yönetmeyi temel ilke edinmiştir. Ara katman yoktur; müvekkiliniz her zaman avukatıyla doğrudan iletişim kurar.',
     about_f1:      'Antalya Barosu kayıtlı avukat',
-    about_f2:      'Her dava bizzat avukatınız tarafından takip edilir.',
+    about_f2:      'Her dava bizzat avukatınız tarafından takip edilir',
     about_f3:      'Gizlilik ve etik ilkelere tam bağlılık',
     about_f4:      'Şeffaf ve önceden belirlenmiş ücretlendirme',
     about_btn:     'Av. F. Şimal Kuncan ile Görüşün',
@@ -61,7 +61,7 @@ const translations = {
     /* WHY US */
     why_eyebrow: 'Neden Biz',
     why_title:   'Doğrudan Avukatınızla<br />Çalışmanın Farkı',
-    why_p:       'Birçok hukuk bürosunda davalar asistanlar ya da stajyerler aracılığıyla yürütülür. Kuncan Hukuk & Danışmanlık\'ta her müvekkil, davasını bizzat takip eden bir avukatla çalışır.',
+    why_p:       '',
     why1_title:  'Birebir Temsil',
     why1_desc:   'Davanızı doğrudan Av. F. Şimal Kuncan takip eder. Ara katman, asistan veya stajyer bulunmaz.',
     why2_title:  'Titiz Hazırlık',
@@ -253,7 +253,7 @@ const translations = {
     /* WHY US */
     why_eyebrow: 'Why Choose Us',
     why_title:   'The Difference of Working<br />Directly With Your Attorney',
-    why_p:       'In many law firms, cases are handled through assistants or interns. At Kuncan Law & Consultancy, every client works directly with the attorney who personally manages their case.',
+    why_p:       '',
     why1_title:  'Direct Representation',
     why1_desc:   'Your case is handled directly by Att. F. Şimal Kuncan. There are no intermediaries, assistants or interns.',
     why2_title:  'Thorough Preparation',
