@@ -1,16 +1,6 @@
 {
   "articles": [
     {
-      "author": "Av. Şimal Kuncan",
-      "readTime": 5,
-      "id": "test-article",
-      "title": "test article",
-      "category": "aile",
-      "date": "2026-03-13",
-      "excerpt": "test article",
-      "content": "this is a **test** *article*"
-    },
-    {
       "author": "Av. F. Şimal Kuncan",
       "readTime": 5,
       "title": "Arsa Payı Karşılığı İnşaat Sözleşmelerinde Yükleniciden Ayni Hak Edinen İyiniyetli Üçüncü Kişinin Bu Hakkının Korunacağına Dair İçtihadı Birleştirme Kararı Yayımlandı",
