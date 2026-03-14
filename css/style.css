@@ -796,6 +796,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   opacity: 0.6;
 }
 
+.testimonial-stars {
+  color: #f59e0b;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
 .testimonial-text {
   font-family: var(--font-serif);
   font-size: 1.4rem;
