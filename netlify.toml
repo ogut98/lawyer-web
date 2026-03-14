@@ -29,9 +29,10 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Restrict admin panel access headers
+# Admin panel — relaxed CSP required by Decap CMS
 [[headers]]
   for = "/admin/*"
   [headers.values]
     X-Robots-Tag = "noindex"
     X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://identity.netlify.com https://cdn.jsdelivr.net https://unpkg.com https://www.decapcms.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://identity.netlify.com https://api.netlify.com https://www.googleapis.com; frame-src 'self';"
