@@ -13,7 +13,8 @@
     ceza:         'Ceza Hukuku',
     gayrimenkul:  'Gayrimenkul Hukuku',
     ticaret:      'Ticaret Hukuku',
-    idare:        'İdare Hukuku'
+    idare:        'İdare Hukuku',
+    is:           'İş Hukuku'
   };
 
   /* ── Helpers ── */
@@ -124,15 +125,22 @@
       if (!article) { container.innerHTML = '<p class="not-found">Makale bulunamadı.</p>'; return; }
 
       document.title = article.title + ' | Kuncan Hukuk & Danışmanlık';
+      var pageUrl = 'https://www.kuncanhukuk.com/yazilar/makale.html?id=' + encodeURIComponent(article.id);
+      var metaDesc = document.getElementById('metaDesc'); if (metaDesc) metaDesc.setAttribute('content', article.excerpt.slice(0, 160));
+      var ogTitle  = document.getElementById('ogTitle');  if (ogTitle)  ogTitle.setAttribute('content', article.title + ' | Kuncan Hukuk & Danışmanlık');
+      var ogDesc   = document.getElementById('ogDesc');   if (ogDesc)   ogDesc.setAttribute('content', article.excerpt.slice(0, 160));
+      var ogUrl    = document.getElementById('ogUrl');    if (ogUrl)    ogUrl.setAttribute('content', pageUrl);
+      var canon    = document.getElementById('canonical'); if (canon)   canon.setAttribute('href', pageUrl);
 
       var catLabel = CAT_LABELS[article.category] || article.category;
 
-      /* Render markdown content if marked.js is available */
+      /* Render markdown content if marked.js is available, sanitize with DOMPurify */
       var contentHtml = '';
       if (article.content) {
-        contentHtml = global.marked
+        var raw = global.marked
           ? global.marked.parse(article.content)
           : '<p>' + esc(article.content).replace(/\n\n/g, '</p><p>') + '</p>';
+        contentHtml = global.DOMPurify ? global.DOMPurify.sanitize(raw) : raw;
       } else {
         contentHtml = '<p>' + esc(article.excerpt) + '</p>';
       }

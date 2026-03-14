@@ -7,6 +7,8 @@ locale: tr
 media_folder: images/uploads
 public_folder: /images/uploads
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "makaleler"
     label: "Makaleler"
@@ -19,15 +21,17 @@ collections:
             label: Makaleler
             label_singular: Makale
             widget: list
-            summary: "{{fields.title}}"
+            summary: "{{fields.title}} — {{fields.category}}"
             fields:
               - label: "Makale ID (URL)"
                 name: id
                 widget: string
                 hint: "Türkçe karakter ve boşluk içermemeli. Örn: bosanma-davasi-rehberi"
+
               - label: "Başlık"
                 name: title
                 widget: string
+
               - label: "Kategori"
                 name: category
                 widget: select
@@ -37,26 +41,54 @@ collections:
                   - { label: "Gayrimenkul Hukuku",  value: "gayrimenkul" }
                   - { label: "Ticaret Hukuku",      value: "ticaret" }
                   - { label: "İdare Hukuku",        value: "idare" }
+                  - { label: "İş Hukuku",           value: "is" }
+
               - label: "Yayın Tarihi"
                 name: date
                 widget: datetime
                 format: "YYYY-MM-DD"
                 date_format: "DD.MM.YYYY"
                 time_format: false
+
               - label: "Yazar"
                 name: author
                 widget: string
-                default: "Av. Şimal Kuncan"
+                default: "Av. F. Şimal Kuncan"
+
               - label: "Okuma Süresi (dakika)"
                 name: readTime
                 widget: number
                 default: 5
                 value_type: int
+                min: 1
+                max: 60
+
+              - label: "Öne Çıkan Görsel"
+                name: image
+                widget: image
+                required: false
+                hint: "İsteğe bağlı. Makale kartında ve detay sayfasında gösterilir."
+
               - label: "Özet"
                 name: excerpt
                 widget: text
-                hint: "Makale listesinde görünecek kısa açıklama (1-3 cümle)"
+                hint: "Makale listesinde görünecek kısa açıklama (1-3 cümle). Arama motorları için de önemlidir."
+
               - label: "İçerik"
                 name: content
                 widget: markdown
-                hint: "Makalenin tam içeriği. Başlık, paragraf, liste gibi biçimlendirmeler kullanabilirsiniz."
+                hint: "Makalenin tam içeriği. Araç çubuğunu kullanarak başlık, kalın, italik, liste, bağlantı ve görsel ekleyebilirsiniz."
+                buttons:
+                  - bold
+                  - italic
+                  - code
+                  - link
+                  - heading-one
+                  - heading-two
+                  - heading-three
+                  - quote
+                  - bulleted-list
+                  - numbered-list
+                editor_components:
+                  - image
+                  - code-block

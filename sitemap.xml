@@ -5,7 +5,7 @@
   <!-- Anasayfa -->
   <url>
     <loc>https://www.kuncanhukuk.com/</loc>
-    <lastmod>2024-11-20</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,73 +13,9 @@
   <!-- Yazılar Listesi -->
   <url>
     <loc>https://www.kuncanhukuk.com/yazilar.html</loc>
-    <lastmod>2024-11-20</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-
-  <!-- Makale Sayfaları -->
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/antalyada-bosanma-davasi.html</loc>
-    <lastmod>2024-11-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/antalyada-gayrimenkul-alirken.html</loc>
-    <lastmod>2024-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/trafik-kazasi-tazminati.html</loc>
-    <lastmod>2024-10-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/antalyada-sirket-kurulus.html</loc>
-    <lastmod>2024-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/velayet-davasi-rehberi.html</loc>
-    <lastmod>2024-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/imar-para-cezasi-itiraz.html</loc>
-    <lastmod>2024-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/kira-artis-haklari.html</loc>
-    <lastmod>2024-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/gozaltina-alinan-haklari.html</loc>
-    <lastmod>2024-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.kuncanhukuk.com/yazilar/is-sozlesmesi-haklari.html</loc>
-    <lastmod>2024-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
 </urlset>

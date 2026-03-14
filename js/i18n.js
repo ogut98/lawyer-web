@@ -16,7 +16,9 @@ const translations = {
     nav_contact:      'İletişim',
 
     /* HERO */
-    hero_eyebrow:   'Antalya Barosu Kayıtlı · Kuruluş: 2020',
+    logo_main:      'Kuncan Hukuk',
+    logo_sub:       '& Danışmanlık · Antalya',
+    hero_eyebrow:   'Antalya Barosu Kayıtlı · Kuruluş: 2022',
     hero_title:     'Antalya\'da Kişisel<br /><em>Hukuk Danışmanlığı</em>',
     hero_subtitle:  'Her davanızı bizzat takip eden, müvekkillerine doğrudan ulaşılabilir ve sonuç odaklı hukuki danışmanlık sunan bir avukat arıyorsanız doğru yerdesiniz.',
     hero_cta_1:     'Randevu Alın',
@@ -30,13 +32,13 @@ const translations = {
     about_eyebrow: 'Hakkımda',
     about_title:   'Hukukta Kişisel<br />Dokunuş Fark Yaratır',
     about_badge:   'Yıllık<br/>Deneyim',
-    about_p1:      '<strong>Kuncan Hukuk & Danışmanlık</strong>, Av. Şimal Kuncan tarafından 2020 yılında Antalya\'da kurulmuştur. Büro, Antalya Barosu\'na kayıtlı olarak bireysel ve kurumsal müvekkillere; aile hukukundan ticaret hukukuna, gayrimenkulden ceza hukukuna uzanan geniş bir alanda hizmet vermektedir.',
+    about_p1:      '<strong>Kuncan Hukuk & Danışmanlık</strong>, Av. F. Şimal Kuncan tarafından 2022 yılında Antalya\'da kurulmuştur. Büro, Antalya Barosu\'na kayıtlı olarak bireysel ve kurumsal müvekkillere; aile hukukundan ticaret hukukuna, gayrimenkulden ceza hukukuna uzanan geniş bir alanda hizmet vermektedir.',
     about_p2:      'Bürodaki her davayı bizzat takip eden Av. Kuncan, müvekkillerine doğrudan ulaşılabilir olmayı ve süreci şeffaf biçimde yönetmeyi temel ilke edinmiştir. Ara katman yoktur; müvekkiliniz her zaman avukatıyla doğrudan iletişim kurar.',
     about_f1:      'Antalya Barosu kayıtlı avukat',
     about_f2:      'Her dava bizzat Av. Kuncan tarafından takip edilir',
     about_f3:      'Gizlilik ve etik ilkelere tam bağlılık',
     about_f4:      'Şeffaf ve önceden belirlenmiş ücretlendirme',
-    about_btn:     'Av. Şimal Kuncan ile Görüşün',
+    about_btn:     'Av. F. Şimal Kuncan ile Görüşün',
 
     /* SERVICES */
     svc_eyebrow: 'Hizmet Alanlarım',
@@ -61,7 +63,7 @@ const translations = {
     why_title:   'Doğrudan Avukatınızla<br />Çalışmanın Farkı',
     why_p:       'Birçok hukuk bürosunda davalar asistanlar ya da stajyerler aracılığıyla yürütülür. Kuncan Hukuk & Danışmanlık\'ta her müvekkil, davasını bizzat takip eden bir avukatla çalışır.',
     why1_title:  'Birebir Temsil',
-    why1_desc:   'Davanızı doğrudan Av. Şimal Kuncan takip eder. Ara katman, asistan veya stajyer bulunmaz.',
+    why1_desc:   'Davanızı doğrudan Av. F. Şimal Kuncan takip eder. Ara katman, asistan veya stajyer bulunmaz.',
     why2_title:  'Titiz Hazırlık',
     why2_desc:   'Her dava, kapsamlı hukuki araştırma ve özenli dosya hazırlığıyla ele alınır.',
     why3_title:  'Açık İletişim',
@@ -77,9 +79,9 @@ const translations = {
 
     /* LAWYER PROFILE */
     lawyer_eyebrow:  'Avukat',
-    lawyer_title:    'Av. Şimal Kuncan',
+    lawyer_title:    'Av. F. Şimal Kuncan',
     lawyer_subtitle: 'Kurucu Avukat · Kuncan Hukuk & Danışmanlık',
-    lawyer_bio:      'Kocaeli Üniversitesi Hukuk Fakültesi\'nden mezun olan Av. Şimal Kuncan, Antalya Barosu\'na kayıtlı olarak Kuncan Hukuk & Danışmanlık çatısı altında bireysel ve kurumsal müvekkillere hizmet sunmaktadır. Kurucu avukat olarak her davayı bizzat üstlenen Av. Kuncan, müvekkilleriyle doğrudan iletişim kurarak dürüst, şeffaf ve sonuç odaklı bir çalışma anlayışını benimsemektedir. Aile hukuku, gayrimenkul ve ticaret hukuku başta olmak üzere pek çok alanda başarıyla sonuçlandırılan dosyaları bulunan Av. Kuncan, her müvekkile özel strateji geliştirmeyi ve davanın tüm süreçlerinde aktif olarak var olmayı temel ilke edinmiştir.',
+    lawyer_bio:      '<p>Av. F. Şimal Kuncan, Kocaeli Üniversitesi Hukuk Fakültesi\'nden onur derecesiyle mezun olmuştur. Avukatlık stajını Antalya\'nın önde gelen kurumsal hukuk bürolarından birinde tamamlamasının ardından, meslek hayatının ilk dönemlerinde Antalya\'da faaliyet gösteren kurumsal bir şirkette şirket avukatı olarak görev yapmıştır.</p><p>Edindiği mesleki deneyim sonrasında Kuncan Hukuk &amp; Danışmanlık\'ı kurarak Antalya\'da serbest avukatlık faaliyetlerine başlamıştır. İş hukuku, ticaret hukuku, aile hukuku ve ceza hukuku başta olmak üzere çeşitli hukuk alanlarında hukuki danışmanlık ve avukatlık hizmeti sunmaktadır.</p><p>Av. F. Şimal Kuncan halen Akdeniz Üniversitesi Çalışma Ekonomisi ve Endüstri İlişkileri Anabilim Dalı\'nda tezli yüksek lisans eğitimine devam etmekte olup iyi derecede İngilizce bilmektedir.</p><p>Antalya\'da hukuki destek almak isteyen kişiler için Kuncan Hukuk &amp; Danışmanlık, müvekkillerine titiz, güvenilir ve çözüm odaklı hukuki hizmet sunmayı amaçlamaktadır.</p>',
     lawyer_edu:      'Kocaeli Üniversitesi Hukuk Fakültesi',
     lawyer_bar:      'Antalya Barosu Üyesi',
     lawyer_focus:    'Uzmanlık Alanları',
@@ -91,12 +93,12 @@ const translations = {
     /* TESTIMONIALS */
     test_eyebrow: 'Referanslar',
     test_title:   'Müvekkillerim Ne Diyor?',
-    test1_text:   'Av. Şimal Kuncan, karmaşık bir ticari anlaşmazlığımda bana üstün bir hukuki strateji sundu. Sürecin her aşamasında bizzat ilgilendi; sonuç itibarıyla tam bir başarı elde ettik.',
+    test1_text:   'Av. F. Şimal Kuncan, karmaşık bir ticari anlaşmazlığımda bana üstün bir hukuki strateji sundu. Sürecin her aşamasında bizzat ilgilendi; sonuç itibarıyla tam bir başarı elde ettik.',
     test1_name:   'Cem Yılmaz',
     test1_role:   'Şirket Ortağı — Antalya',
     test2_text:   'Antalya\'da boşanma sürecimde hem hukuki hem insani boyutuyla desteklendim. Av. Kuncan\'ın empati dolu ve profesyonel yaklaşımı sayesinde bu zorlu dönemi sağlıklı biçimde atlattım.',
     test2_name:   'Ayşe Demir',
-    test2_role:   'Öğretmen — Muratpaşa, Antalya',
+    test2_role:   'Öğretmen — Konyaaltı, Antalya',
     test3_text:   'Gayrimenkul alım sürecimde yaşanan tapu sorununu çok hızlı ve etkin biçimde çözdü. Şeffaf iletişimi ve özverili ilgisi için gerçekten teşekkür ediyorum.',
     test3_name:   'Kemal Arslan',
     test3_role:   'Girişimci — Konyaaltı, Antalya',
@@ -110,7 +112,7 @@ const translations = {
 
     /* CONTACT */
     contact_eyebrow: 'İletişim',
-    contact_title:   'Av. Şimal Kuncan ile<br />İletişime Geçin',
+    contact_title:   'Av. F. Şimal Kuncan ile<br />İletişime Geçin',
     contact_p:       'Hukuki konulardaki sorularınız için randevu oluşturabilirsiniz. Av. Kuncan davanızı değerlendirip size uygun yol haritasını paylaşacaktır.',
     contact_addr_lbl: 'Adres',
     contact_phone_lbl:'Telefon',
@@ -138,7 +140,7 @@ const translations = {
     form_success:  'Mesajınız alındı. En kısa sürede sizinle iletişime geçeceğim.',
 
     /* FOOTER */
-    footer_tagline:   '2020\'den bu yana Antalya\'da kişisel ve özverili hukuki danışmanlık.',
+    footer_tagline:   '2022\'den bu yana Antalya\'da kişisel ve özverili hukuki danışmanlık.',
     footer_col1:      'Hizmet Alanları',
     footer_col2:      'Hızlı Bağlantılar',
     footer_col3:      'İletişim',
@@ -156,6 +158,9 @@ const translations = {
     footer_ql6:       'Gizlilik Politikası',
     footer_copyright: '© 2024 Kuncan Hukuk & Danışmanlık — Antalya Avukat. Tüm hakları saklıdır.',
     footer_disc:      'Bu web sitesi bilgilendirme amaçlıdır; hukuki tavsiye niteliği taşımaz.',
+    footer_legal_btn: 'Yasal Uyarı',
+    legal_title:      'Yasal Uyarı',
+    legal_body:       '<p>www.kuncanhukuk.com internet sitesindeki açıklamalar genel bilgilendirme amaçlı olup Türkiye Barolar Birliği\'nin ilgili mevzuatına bağlı kalınarak ve reklam yasağına ilişkin düzenlemelere uygun olarak hazırlanmıştır.</p><p>İnternet sitesinde yer alan bilgiler, herhangi bir iş talebi, kazanç sağlama amacı ya da reklam faaliyetleri için kullanılamaz. Yazılar ve bilgiler yalnızca genel bilgilendirme amacı taşımakta olup ticari bir hedef güdülmemektedir.</p><p>Bu içerikler hiçbir şekilde hukuki görüş ya da dayanak olarak değerlendirilmemelidir. Zira içerikler, zamanla güncelliğini kaybedebilir ve mevcut mevzuat ya da uygulamalarla uyumsuz hale gelebilir.</p><p>Bu nedenle Kuncan Hukuk &amp; Danışmanlık, internet sitesinde yer alan bilgilerin kullanımından doğabilecek herhangi bir sonuca dair sorumluluk kabul etmemektedir. Ziyaretçiler, burada yer alan bilgiler nedeniyle zarar gördüklerini öne süremezler.</p><p>İnternet sitesinde mevcut tüm yazıların mülkiyeti Kuncan Hukuk &amp; Danışmanlık\'a aittir. Bu içerikler, yazılı izin olmaksızın kopyalanamaz, çoğaltılamaz ve başka amaçlarla kullanılamaz.</p>',
 
     /* WA */
     wa_tooltip: 'WhatsApp\'tan Yazın',
@@ -191,7 +196,9 @@ const translations = {
     nav_contact:      'Contact',
 
     /* HERO */
-    hero_eyebrow:   'Antalya Bar Association · Est. 2020',
+    logo_main:      'Kuncan Law',
+    logo_sub:       '& Consultancy · Antalya',
+    hero_eyebrow:   'Antalya Bar Association · Est. 2022',
     hero_title:     'Personal Legal<br /><em>Consultancy in Antalya</em>',
     hero_subtitle:  'If you are looking for an attorney who personally handles every case, is directly reachable and provides results-oriented legal advice, you are in the right place.',
     hero_cta_1:     'Book a Consultation',
@@ -205,13 +212,13 @@ const translations = {
     about_eyebrow: 'About',
     about_title:   'Personal Attention<br />Makes the Difference',
     about_badge:   'Years of<br/>Experience',
-    about_p1:      '<strong>Kuncan Law & Consultancy</strong> was founded in Antalya in 2020 by Att. Şimal Kuncan. Registered with the Antalya Bar Association, the firm provides legal services to individual and corporate clients across a wide spectrum — from family law to commercial law, and from real estate to criminal law.',
+    about_p1:      '<strong>Kuncan Law & Consultancy</strong> was founded in Antalya in 2022 by Att. F. Şimal Kuncan. Registered with the Antalya Bar Association, the firm provides legal services to individual and corporate clients across a wide spectrum — from family law to commercial law, and from real estate to criminal law.',
     about_p2:      'Att. Kuncan personally handles every case at the firm, making direct availability to clients and transparent case management her core principles. There are no intermediaries — clients always communicate directly with their attorney.',
     about_f1:      'Registered with the Antalya Bar Association',
     about_f2:      'Every case personally handled by Att. Kuncan',
     about_f3:      'Full commitment to confidentiality and ethical standards',
     about_f4:      'Transparent and pre-agreed fee policy',
-    about_btn:     'Speak With Att. Şimal Kuncan',
+    about_btn:     'Speak With Att. F. Şimal Kuncan',
 
     /* SERVICES */
     svc_eyebrow: 'Practice Areas',
@@ -236,7 +243,7 @@ const translations = {
     why_title:   'The Difference of Working<br />Directly With Your Attorney',
     why_p:       'In many law firms, cases are handled through assistants or interns. At Kuncan Law & Consultancy, every client works directly with the attorney who personally manages their case.',
     why1_title:  'Direct Representation',
-    why1_desc:   'Your case is handled directly by Att. Şimal Kuncan. There are no intermediaries, assistants or interns.',
+    why1_desc:   'Your case is handled directly by Att. F. Şimal Kuncan. There are no intermediaries, assistants or interns.',
     why2_title:  'Thorough Preparation',
     why2_desc:   'Every case is approached with comprehensive legal research and meticulous file preparation.',
     why3_title:  'Open Communication',
@@ -252,9 +259,9 @@ const translations = {
 
     /* LAWYER PROFILE */
     lawyer_eyebrow:  'Attorney',
-    lawyer_title:    'Att. Şimal Kuncan',
+    lawyer_title:    'Att. F. Şimal Kuncan',
     lawyer_subtitle: 'Founding Attorney · Kuncan Law & Consultancy',
-    lawyer_bio:      'Att. Şimal Kuncan graduated from Kocaeli University Faculty of Law and is registered with the Antalya Bar Association. Under the Kuncan Law & Consultancy firm she founded, she provides legal consultancy services to individual and corporate clients. As the founding attorney, she personally handles every case, establishing direct communication with her clients and adopting an honest, transparent and results-oriented work ethic. Having successfully concluded cases in family law, real estate and commercial law among many other fields, Att. Kuncan considers developing tailored strategies for each client and being actively present throughout all stages of the proceedings as her fundamental principle.',
+    lawyer_bio:      '<p>Att. F. Şimal Kuncan graduated with honors from Kocaeli University Faculty of Law. After completing her legal internship at one of Antalya\'s leading corporate law firms, she served as in-house counsel at a corporate company operating in Antalya during the early years of her career.</p><p>Following this professional experience, she established Kuncan Law &amp; Consultancy and began practicing as an independent attorney in Antalya. She provides legal consultancy and representation services across various fields of law, primarily labor law, commercial law, family law, and criminal law.</p><p>Att. F. Şimal Kuncan is currently pursuing a thesis-based master\'s degree in the Department of Labor Economics and Industrial Relations at Akdeniz University, and has a good command of English.</p><p>For individuals seeking legal support in Antalya, Kuncan Law &amp; Consultancy aims to provide its clients with meticulous, reliable, and solution-oriented legal services.</p>',
     lawyer_edu:      'Kocaeli University Faculty of Law',
     lawyer_bar:      'Member of the Antalya Bar Association',
     lawyer_focus:    'Focus Areas',
@@ -266,12 +273,12 @@ const translations = {
     /* TESTIMONIALS */
     test_eyebrow: 'References',
     test_title:   'What My Clients Say',
-    test1_text:   'Att. Şimal Kuncan provided me with a superior legal strategy in a complex commercial dispute. She personally handled every stage of the process, and we achieved a complete success.',
+    test1_text:   'Att. F. Şimal Kuncan provided me with a superior legal strategy in a complex commercial dispute. She personally handled every stage of the process, and we achieved a complete success.',
     test1_name:   'Cem Yılmaz',
     test1_role:   'Company Partner — Antalya',
     test2_text:   'I received support both legally and on a human level during my divorce proceedings in Antalya. Thanks to Att. Kuncan\'s empathetic and professional approach, I navigated this difficult period in the healthiest way possible.',
     test2_name:   'Ayşe Demir',
-    test2_role:   'Teacher — Muratpaşa, Antalya',
+    test2_role:   'Teacher — Konyaaltı, Antalya',
     test3_text:   'She resolved a title deed problem I encountered during a property purchase very quickly and effectively. I am truly grateful for her transparent communication and dedicated attention.',
     test3_name:   'Kemal Arslan',
     test3_role:   'Entrepreneur — Konyaaltı, Antalya',
@@ -285,7 +292,7 @@ const translations = {
 
     /* CONTACT */
     contact_eyebrow: 'Contact',
-    contact_title:   'Get in Touch With<br />Att. Şimal Kuncan',
+    contact_title:   'Get in Touch With<br />Att. F. Şimal Kuncan',
     contact_p:       'You can book an appointment for your legal enquiries. Att. Kuncan will evaluate your case and share the most suitable roadmap for you.',
     contact_addr_lbl: 'Address',
     contact_phone_lbl:'Phone',
@@ -313,7 +320,7 @@ const translations = {
     form_success:  'Your message has been received. I will get back to you as soon as possible.',
 
     /* FOOTER */
-    footer_tagline:   'Personal and dedicated legal consultancy in Antalya since 2020.',
+    footer_tagline:   'Personal and dedicated legal consultancy in Antalya since 2022.',
     footer_col1:      'Practice Areas',
     footer_col2:      'Quick Links',
     footer_col3:      'Contact',
@@ -331,6 +338,9 @@ const translations = {
     footer_ql6:       'Privacy Policy',
     footer_copyright: '© 2024 Kuncan Law & Consultancy — Antalya Lawyer. All rights reserved.',
     footer_disc:      'This website is for informational purposes only and does not constitute legal advice.',
+    footer_legal_btn: 'Legal Notice',
+    legal_title:      'Legal Notice',
+    legal_body:       '<p>The statements on www.kuncanhukuk.com are prepared for general informational purposes, in compliance with the relevant legislation of the Union of Turkish Bar Associations and in accordance with the regulations on the prohibition of advertising.</p><p>The information on this website may not be used for any business solicitation, profit-making, or advertising activities. The articles and information are intended solely for general informational purposes and do not pursue any commercial objective.</p><p>These contents should not under any circumstances be considered as legal opinion or legal basis. The contents may lose their currency over time and may become inconsistent with current legislation or practice.</p><p>For this reason, Kuncan Law &amp; Consultancy accepts no responsibility for any consequences arising from the use of the information contained on this website. Visitors may not claim damages arising from the information provided herein.</p><p>All articles on this website are the property of Kuncan Law &amp; Consultancy. These contents may not be copied, reproduced, or used for other purposes without written permission.</p>',
 
     /* WA */
     wa_tooltip: 'Message on WhatsApp',
