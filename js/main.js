@@ -154,15 +154,25 @@ if (form) {
     btn.disabled = true;
     btn.querySelector('span').textContent = 'Gönderiliyor…';
 
-    // Simulate network request
-    setTimeout(() => {
-      form.reset();
-      formSuccess.classList.add('show');
-      btn.disabled = false;
-      btn.querySelector('span').textContent = 'Mesaj Gönder';
+    const data = new FormData(form);
 
-      setTimeout(() => formSuccess.classList.remove('show'), 6000);
-    }, 1200);
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(data).toString()
+    })
+      .then(() => {
+        form.reset();
+        formSuccess.classList.add('show');
+        btn.disabled = false;
+        btn.querySelector('span').textContent = 'Mesaj Gönder';
+        setTimeout(() => formSuccess.classList.remove('show'), 6000);
+      })
+      .catch(() => {
+        btn.disabled = false;
+        btn.querySelector('span').textContent = 'Mesaj Gönder';
+        alert('Bir hata oluştu. Lütfen doğrudan bilgi@kuncanhukuk.com adresine e-posta gönderin.');
+      });
   });
 }
 
