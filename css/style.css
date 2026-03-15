@@ -1417,6 +1417,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .lawyer-bio-text {
   font-size: 1rem;
   line-height: 1.85;
+  color: var(--text-mid);
+}
+.lawyer-bio-text p {
+  color: var(--text-mid);
+  margin-bottom: 14px;
 }
 
 .lawyer-meta {
@@ -1802,6 +1807,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .sidebar-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.6); margin-bottom: 20px; }
 
+.sidebar-widget .footer-contact li {
+  color: var(--text-mid);
+}
+.sidebar-widget .footer-contact li a {
+  color: var(--navy);
+}
+.sidebar-widget .footer-contact li a:hover {
+  color: var(--gold-dark);
+}
 .sidebar-popular {
   display: flex;
   flex-direction: column;

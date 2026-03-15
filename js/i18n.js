@@ -19,7 +19,7 @@ const translations = {
     logo_main:      'Kuncan Hukuk',
     logo_sub:       '& Danışmanlık · Antalya',
     hero_eyebrow:   'Antalya Barosu Kayıtlı · Kuruluş: 2022',
-    hero_title:     'Antalya\'da Kişisel<br /><em>Hukuk Danışmanlığı</em>',
+    hero_title:     'Antalya Avukat<br /><em>Kuncan Hukuk & Danışmanlık</em>',
     hero_subtitle:  'Antalya\'da hukuki danışmanlık ve avukatlık hizmeti arayan bireyler ve kurumlar için Kuncan Hukuk & Danışmanlık, hukuki süreçlerinizi titizlikle ele alarak çözüm odaklı destek sunmayı amaçlamaktadır.',
     hero_cta_1:     'Randevu Alın',
     hero_cta_2:     'Hizmetler',
@@ -43,7 +43,7 @@ const translations = {
     /* SERVICES */
     svc_eyebrow: 'Hizmet Alanlarımız',
     svc_title:   'Antalya\'da Uzman<br />Hukuk Danışmanlığı',
-    svc_desc:    'Her hukuki sorununuz için doğrudan avukatınızla çözüm üretiyoruz.',
+    svc_desc:    'Antalya avukat olarak iş hukuku, aile hukuku, ticaret hukuku ve gayrimenkul hukuku başta olmak üzere pek çok alanda hukuki danışmanlık ve dava takibi hizmeti sunuyoruz.',
     svc1_title: 'Ticaret Hukuku',
     svc1_desc:  'Antalya\'daki şirket kuruluşu, ticari sözleşmeler, ticari uyuşmazlıklar ve şirket hukuku danışmanlığı.',
     svc2_title: 'İdare Hukuku',
@@ -61,7 +61,7 @@ const translations = {
     /* WHY US */
     why_eyebrow: 'Neden Biz',
     why_title:   'Doğrudan Avukatınızla<br />Çalışmanın Farkı',
-    why_p:       '',
+    why_p:       'Kuncan Hukuk & Danışmanlık olarak Antalya\'da avukat arayan müvekkillerimize kişisel, şeffaf ve çözüm odaklı bir hizmet anlayışı sunuyoruz. Her davayı bizzat takip ediyor, müvekkillerimizle doğrudan iletişim kuruyoruz.',
     why1_title:  'Birebir Temsil',
     why1_desc:   'Davanızı doğrudan Av. F. Şimal Kuncan takip eder. Ara katman, asistan veya stajyer bulunmaz.',
     why2_title:  'Titiz Hazırlık',
@@ -211,7 +211,7 @@ const translations = {
     logo_main:      'Kuncan Law',
     logo_sub:       '& Consultancy · Antalya',
     hero_eyebrow:   'Antalya Bar Association · Est. 2022',
-    hero_title:     'Personal Legal<br /><em>Consultancy in Antalya</em>',
+    hero_title:     'Lawyer in Antalya<br /><em>Kuncan Law & Consultancy</em>',
     hero_subtitle:  'For individuals and institutions seeking legal consultancy and representation in Antalya, Kuncan Law & Consultancy aims to provide solution-oriented support by handling your legal processes with meticulous care.',
     hero_cta_1:     'Book a Consultation',
     hero_cta_2:     'My Services',
@@ -253,7 +253,7 @@ const translations = {
     /* WHY US */
     why_eyebrow: 'Why Choose Us',
     why_title:   'The Difference of Working<br />Directly With Your Attorney',
-    why_p:       '',
+    why_p:       'At Kuncan Law & Consultancy, we offer a personal, transparent and solution-oriented approach to clients seeking a lawyer in Antalya. We personally handle every case and communicate directly with our clients.',
     why1_title:  'Direct Representation',
     why1_desc:   'Your case is handled directly by Att. F. Şimal Kuncan. There are no intermediaries, assistants or interns.',
     why2_title:  'Thorough Preparation',
@@ -419,9 +419,15 @@ function initLangToggle() {
 
   let currentLang = localStorage.getItem(STORAGE_KEY) || 'tr';
 
+  // Always apply translations even if toggle button is missing
+  applyTranslations(currentLang);
+  if (htmlEl) htmlEl.setAttribute('lang', currentLang);
+
+  if (!toggleBtn) return;
+
   function setLang(lang) {
     currentLang = lang;
-    htmlEl.setAttribute('lang', lang);
+    if (htmlEl) htmlEl.setAttribute('lang', lang);
     localStorage.setItem(STORAGE_KEY, lang);
     applyTranslations(lang);
 
