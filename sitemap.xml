@@ -4,7 +4,7 @@
 
   <!-- Anasayfa -->
   <url>
-    <loc>https://www.kuncanhukuk.com/</loc>
+    <loc>https://kuncanhukuk.com/</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -12,7 +12,7 @@
 
   <!-- Yazılar Listesi -->
   <url>
-    <loc>https://www.kuncanhukuk.com/yazilar.html</loc>
+    <loc>https://kuncanhukuk.com/yazilar.html</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
